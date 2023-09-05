@@ -1,4 +1,4 @@
-package com.cprt.school;
+package com.cprt.school.domain.information;
 
 public class Email extends ValueObject {
 
@@ -17,7 +17,7 @@ public class Email extends ValueObject {
     }
 
     public String getEmail(){
-        return this.value;
+        return super.getValue();
     }
 
 }

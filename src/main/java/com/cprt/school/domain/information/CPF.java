@@ -1,4 +1,4 @@
-package com.cprt.school;
+package com.cprt.school.domain.information;
 
 public class CPF extends ValueObject {
 
@@ -17,7 +17,7 @@ public class CPF extends ValueObject {
     }
 
     public String getCpf(){
-        return this.value;
+        return super.getValue();
     }
 
 }

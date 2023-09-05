@@ -1,4 +1,4 @@
-package com.cprt.school;
+package com.cprt.school.domain.information;
 
 public class PhoneNumber {
 

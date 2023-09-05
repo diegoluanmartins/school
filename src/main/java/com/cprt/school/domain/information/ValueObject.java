@@ -1,6 +1,7 @@
-package com.cprt.school;
+package com.cprt.school.domain.information;
 
 public abstract class ValueObject {
+
     String value;
     String regex;
 
@@ -17,7 +18,11 @@ public abstract class ValueObject {
     }
 
     private boolean isValidText(String value) {
-        return (value != null) && (value.matches(regex)); 
+        return (value != null) && (value.matches(regex));
+    }
+
+    protected String getValue(){
+        return this.getValue();
     }
 
 }
